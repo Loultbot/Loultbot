@@ -80,7 +80,7 @@ async def send_message(websocket, message_data):
 async def connect_to_loult_family(player_coins):
     uri = "wss://loult.family/socket/casino"
     headers = {
-        'Cookie': 'id=371eec5730312c873f95ab6838f5bb3bn',
+        'Cookie': 'id=',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36',
         'Origin': 'https://loult.family/casino'
     }
